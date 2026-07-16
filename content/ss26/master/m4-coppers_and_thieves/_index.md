@@ -12,7 +12,7 @@ subtitle = "Online Multiplayer Stealth Game"
 claim = "Pull off the perfect museum heist, or hunt down the thieves before they escape in this 3–6 player Unity multiplayer stealth game."
 
 # Properties for displaying the project in the project list
-card_image = "CTIcon.png"
+card_image = "icon.png"
 
 # Names are optional, team size is sufficient
 team = ["Billy", "David", "Erik", "Frederick", "Jana", "Matthis", "My"]
@@ -60,12 +60,12 @@ We developed a 2D game using the Unity engine. The multiplayer functionality was
 
 
 {{<gallery>}}
-{{<team-member image="CTIcon.png" name="Billy">}}
-{{<team-member image="CTIcon.png" name="David">}}
-{{<team-member image="CTIcon.png" name="Erik">}}
-{{<team-member image="CTIcon.png" name="Frederick">}}
-{{<team-member image="CTIcon.png" name="Jana">}}
-{{<team-member image="CTIcon.png" name="Matthis">}}
-{{<team-member image="CTIcon.png" name="My">}}
+{{<team-member image="icon.png" name="Billy">}}
+{{<team-member image="icon.png" name="David">}}
+{{<team-member image="icon.png" name="Erik">}}
+{{<team-member image="icon.png" name="Frederick">}}
+{{<team-member image="icon.png" name="Jana">}}
+{{<team-member image="icon.png" name="Matthis">}}
+{{<team-member image="icon.png" name="My">}}
 {{</gallery>}}
 
