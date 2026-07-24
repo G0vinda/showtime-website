@@ -47,8 +47,7 @@ These goals resulted in the following main technical challenges:
 {{</section>}}
 
 
-{{<section title="Process and Outcome">}}
-* **Process**
+{{<section title="Process">}}
 
 We worked according to the Scrum methodology in weekly sprints. As students, we focused primarily on technical development while also contributing to selected design tasks. GaHa Games provided continuous feedback during our sprint reviews and supplied all art assets for the project.
 
@@ -56,7 +55,9 @@ Task management was handled through HacknPlan, where we tracked weekly assignmen
 
 Throughout development, we conducted regular internal play sessions to evaluate the current game state. These tests were particularly valuable for identifying networking issues, assessing the impact of design decisions on gameplay enjoyment, and generating new design ideas. In the final weeks of the project, we organized external playtests to determine whether the game was intuitive for new players and to gather independent feedback on key design choices.
 
-* **Outcome**
+{{</section>}}
+
+{{<section title="Outcome">}}
 
 We developed a 2D game using the Unity engine. The multiplayer functionality was implemented with Unity's Netcode for GameObjects, while the low-level networking was handled using Steam's peer-to-peer solution. Our game contained following features:
 
