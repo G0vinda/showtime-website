@@ -65,7 +65,7 @@ We developed a 2D game using the Unity engine. The multiplayer functionality was
 
 Each player has the possibility to customize their character before each match. They can change the animal, hat and outfit of their characters. After the customization the appearance gets synchronized to all clients.
 
-- **Light and Vision Ranges**:
+- **Light & Vision Ranges**:
 
 Using a combination of raycasts, mesh generation and custom shaders we created our own vision system, inspired by the 2013 video game Monaco.
 
@@ -76,9 +76,9 @@ Using a combination of raycasts, mesh generation and custom shaders we created o
 
 We implement our own proximity voice chat, meaning that the players only can hear voices of players who are near them. Unity's Vivox Voice chat service formed the base for that feature and we implemented our own logic to determine the volume depending on distance. 
 
-- **Sound muffling through walls**:
+- **Sound Dampening Through Walls**:
 
-The player should not hear sounds through walls the same way. The motivation for that is that the game experience gets more immersive and less confusing. Here we used a simple set of raycasts and add a muffle effect on the sound depending on how many raycasts hit a wall.
+The player should not hear sounds through walls the same way. The motivation for that is that the game experience gets more immersive and less confusing. Here we used a simple set of raycasts and added a muffle effect on the sound depending on how many raycasts hit a wall.
 
 {{<image src="muffling.png" alt="sound muffling system">}}
 
@@ -86,7 +86,7 @@ The player should not hear sounds through walls the same way. The motivation for
 
 Coppers have alarm traps they can place during a match. Should a Thieve walk through such a trap, an alarm is triggered and the Copper is informed. The Thieves can place smoke bombs that block visibility and help them escape. 
 
-- **Drawing on Game Map**:
+- **Drawing On Game Map**:
 
 Before the match starts the Thieves have the possibility to make a plan together and have a drawing canvas that can assist them in that. When a Thief draws a line it gets synchronized on the other clients. 
 
