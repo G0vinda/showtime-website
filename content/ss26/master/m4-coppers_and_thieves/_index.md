@@ -69,12 +69,12 @@ We developed a 2D game using the Unity engine. The multiplayer functionality was
 
 
 {{<gallery>}}
-{{<team-member image="icon.png" name="Billy">}}
-{{<team-member image="icon.png" name="David">}}
-{{<team-member image="icon.png" name="Erik">}}
-{{<team-member image="icon.png" name="Frederick">}}
-{{<team-member image="icon.png" name="Jana">}}
-{{<team-member image="icon.png" name="Matthis">}}
-{{<team-member image="icon.png" name="My">}}
+{{<team-member image="billy-icon.png" name="Billy">}}
+{{<team-member image="david-icon.png" name="David">}}
+{{<team-member image="erik-icon.png" name="Erik">}}
+{{<team-member image="freddie-icon.png" name="Frederick">}}
+{{<team-member image="jana-icon.png" name="Jana">}}
+{{<team-member image="matthis-icon.png" name="Matthis">}}
+{{<team-member image="my-icon.png" name="My">}}
 {{</gallery>}}
 
