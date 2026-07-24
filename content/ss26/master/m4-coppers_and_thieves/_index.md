@@ -50,7 +50,11 @@ These goals resulted in the following main technical challenges:
 {{<section title="Process and Outcome">}}
 * **Process**
 
-We worked using the Scrum methodology in weekly sprints. We students focused primarily on the technical development while also contributing to smaller design tasks. GaHa Games provided feedback during our weekly sprint meetings and supplied the game's art assets.
+We worked according to the Scrum methodology in weekly sprints. As students, we focused primarily on technical development while also contributing to selected design tasks. GaHa Games provided continuous feedback during our sprint reviews and supplied all art assets for the project.
+
+Task management was handled through HacknPlan, where we tracked weekly assignments, marked completed tasks, and redistributed unfinished work. During each sprint meeting, we ensured that every team member had clearly defined responsibilities. Although each person concentrated on specific areas of the game, we intentionally rotated tasks to maintain variety and broaden our skill sets.
+
+Throughout development, we conducted regular internal play sessions to evaluate the current game state. These tests were particularly valuable for identifying networking issues, assessing the impact of design decisions on gameplay enjoyment, and generating new design ideas. In the final weeks of the project, we organized external playtests to determine whether the game was intuitive for new players and to gather independent feedback on key design choices.
 
 * **Outcome**
 
