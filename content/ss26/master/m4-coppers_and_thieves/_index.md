@@ -76,6 +76,8 @@ We implement our own proximity voice chat, meaning that the players only can hea
 
 The player should not hear sounds through walls the same way. The motivation for that is that the game experience gets more immersive and less confusing. Here we used a simple set of raycasts and add a muffle effect on the sound depending on how many raycasts hit a wall.
 
+{{<image src="muffling.png" alt="sound muffling system">}}
+
 - **Usable Items**:
 
 Coppers have alarm traps they can place during a match. Should a Thieve walk through such a trap, an alarm is triggered and the Copper is informed. The Thieves can place smoke bombs that block visibility and help them escape. 
