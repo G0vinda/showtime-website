@@ -68,6 +68,9 @@ Each player has the possibility to customize their character before each match. 
 
 Using a combination of raycasts, mesh generation and custom shaders we created our own vision system, inspired by the 2013 video game Monaco.
 
+{{<image src="light-shadow.gif" alt="vision system">}}
+
+
 - **Proximity Voice Chat**:
 
 We implement our own proximity voice chat, meaning that the players only can hear voices of players who are near them. Unity's Vivox Voice chat service formed the base for that feature and we implemented our own logic to determine the volume depending on distance. 
