@@ -62,15 +62,11 @@ We developed a 2D game using the Unity engine. The multiplayer functionality was
 
 - **Character Customization**:
 
-Each player has the possibility to customize their character before each match. After the customization the appearance gets synchronized to all clients.
-
-{{<image src="customization.gif" alt="character customization">}}
+Each player has the possibility to customize their character before each match. They can change the animal, hat and outfit of their characters. After the customization the appearance gets synchronized to all clients.
 
 - **Light and Vision Ranges**:
 
 Using a combination of raycasts, mesh generation and custom shaders we created our own vision system, inspired by the 2013 video game Monaco.
-
-{{<image src="light-shadow.gif" alt="vision system">}}
 
 - **Proximity Voice Chat**:
 
@@ -79,8 +75,6 @@ We implement our own proximity voice chat, meaning that the players only can hea
 - **Sound muffling through walls**:
 
 The player should not hear sounds through walls the same way. The motivation for that is that the game experience gets more immersive and less confusing. Here we used a simple set of raycasts and add a muffle effect on the sound depending on how many raycasts hit a wall.
-
-{{<image src="muffling.gif" alt="sound ">}}
 
 - **Usable Items**:
 
