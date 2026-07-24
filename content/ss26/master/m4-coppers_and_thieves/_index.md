@@ -58,15 +58,37 @@ Throughout development, we conducted regular internal play sessions to evaluate 
 
 * **Outcome**
 
-We developed a 2D game using the Unity engine. The multiplayer functionality was implemented with Unity's Netcode for GameObjects, while the low-level networking was handled using Steam's peer-to-peer solution. For in-game voice chat, we integrated Unity's Vivox service. We also used FMOD and developed custom audio systems to dynamically adapt both game audio and voice chat. The light and vision system was created using a combination of raycasts, mesh generation, and custom shaders, inspired by the 2013 game Monaco.
-{{</section>}} 
+We developed a 2D game using the Unity engine. The multiplayer functionality was implemented with Unity's Netcode for GameObjects, while the low-level networking was handled using Steam's peer-to-peer solution. Our game contained following features:
 
+- **Character Customization**:
+
+Each player has the possibility to customize their character before each match. After the customization the appearance gets synchronized to all clients.
+
+- **Light and Vision Ranges**:
+
+Using a combination of raycasts, mesh generation and custom shaders we created our own vision system, inspired by the 2013 video game Monaco.
+
+- **Proximity Voice Chat**:
+
+We implement our own proximity voice chat, meaning that the players only can hear voices of players who are near them. Unity's Vivox Voice chat service formed the base for that feature and we implemented our own logic to determine the volume depending on distance. 
+
+- **Sound muffling through walls**:
+
+The player should not hear sounds through walls the same way. The motivation for that is that the game experience gets more immersive and less confusing. 
+
+- **Usable Items**:
+
+Coppers have alarm traps they can place during a match. Should a Thieve walk through such a trap, an alarm is triggered and the Copper is informed. The Thieves can place smoke bombs that block visibility and help them escape. 
+
+- **Drawing on Game Map**:
+
+Before the match starts the Thieves have the possibility to make a plan together and have a drawing canvas that can assist them in that. When a Thief draws a line it gets synchronized on the other clients. 
+
+{{</section>}} 
 
 {{<section title="Team">}}
 
 {{</section>}} 
-
-
 
 {{<gallery>}}
 {{<team-member image="billy-icon.png" name="Billy">}}
