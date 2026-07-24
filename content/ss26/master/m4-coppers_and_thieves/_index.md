@@ -12,7 +12,7 @@ subtitle = "Online Multiplayer Stealth Game"
 claim = "Pull off the perfect museum heist, or hunt down the thieves before they escape in this 3–6 player Unity multiplayer stealth game."
 
 # Properties for displaying the project in the project list
-card_image = "icon.png"
+card_image = "card-image.png"
 
 # Names are optional, team size is sufficient
 team = ["Billy", "David", "Erik", "Frederick", "Jana", "Matthis", "My"]
