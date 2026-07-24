@@ -64,9 +64,13 @@ We developed a 2D game using the Unity engine. The multiplayer functionality was
 
 Each player has the possibility to customize their character before each match. After the customization the appearance gets synchronized to all clients.
 
+{{<image src="customization.gif" alt="character customization">}}
+
 - **Light and Vision Ranges**:
 
 Using a combination of raycasts, mesh generation and custom shaders we created our own vision system, inspired by the 2013 video game Monaco.
+
+{{<image src="light-shadow.gif" alt="vision system">}}
 
 - **Proximity Voice Chat**:
 
@@ -74,7 +78,9 @@ We implement our own proximity voice chat, meaning that the players only can hea
 
 - **Sound muffling through walls**:
 
-The player should not hear sounds through walls the same way. The motivation for that is that the game experience gets more immersive and less confusing. 
+The player should not hear sounds through walls the same way. The motivation for that is that the game experience gets more immersive and less confusing. Here we used a simple set of raycasts and add a muffle effect on the sound depending on how many raycasts hit a wall.
+
+{{<image src="muffling.gif" alt="sound ">}}
 
 - **Usable Items**:
 
@@ -83,6 +89,8 @@ Coppers have alarm traps they can place during a match. Should a Thieve walk thr
 - **Drawing on Game Map**:
 
 Before the match starts the Thieves have the possibility to make a plan together and have a drawing canvas that can assist them in that. When a Thief draws a line it gets synchronized on the other clients. 
+
+{{<image src="map-drawing.png" alt="drawing on map">}}
 
 {{</section>}} 
 
