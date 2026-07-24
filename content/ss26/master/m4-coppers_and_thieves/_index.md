@@ -32,12 +32,17 @@ website_link = ""
 +++
 
 {{<section title="Our Goal">}}
-We created a Online Multiplayer Game in cooperation with the Berlin game studio GaHa Games. The game is to be played in two teams, the Coppers and the Thieves. The Thieves have to steal a certain amount of artifacts from a museum before time runs out, while the Coppers try to stop them by finding and capturing the Thieves. It is a Top-Down 2D game and the three main technical challenges of the project are:
+Our goal was to create a fun and easy-to-play 2D online multiplayer game where players can experience the thrill of a heist. This project was developed in cooperation with the game studio GaHa Games, who came up with the initial concept for the game.
 
-- **Peer-To-Peer multiplayer**
-- **Proximity voice chat with custom sound system**
-- **Custom light and shadow system**
+The game is played by two teams: the Coppers and the Thieves. The Thieves must steal artifacts from a museum, while the Coppers try to stop them by finding and capturing the Thieves.
 
+To emphasize the stealth aspect of a heist, we wanted to incorporate both a line-of-sight vision system and proximity voice chat. The line-of-sight vision system is a custom lighting mechanic where players and objects are only visible when they are within the player's direct field of view or illuminated by light sources.
+
+These goals resulted in the following main technical challenges:
+
+- **Listen-server multiplayer**
+- **Custom lighting and shadow system**
+- **Proximity voice chat with a custom audio system**
 
 {{</section>}}
 
