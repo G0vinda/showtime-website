@@ -59,7 +59,7 @@ Throughout development, we conducted regular internal play sessions to evaluate 
 
 {{<section title="Outcome">}}
 
-We developed a 2D game using the Unity engine. The multiplayer functionality was implemented with Unity's Netcode for GameObjects, while the low-level networking was handled using Steam's networking solutions. Our game containes the following features:
+We developed a 2D game using the Unity engine. The multiplayer functionality was implemented with Unity's Netcode for GameObjects, while the low-level networking was handled using Steam's networking solutions. Our game contains the following features:
 
 - **Character Customization**:
 
