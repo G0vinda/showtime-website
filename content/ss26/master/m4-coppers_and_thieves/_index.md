@@ -59,7 +59,7 @@ Throughout development, we conducted regular internal play sessions to evaluate 
 
 {{<section title="Outcome">}}
 
-We developed a 2D game using the Unity engine. The multiplayer functionality was implemented with Unity's Netcode for GameObjects, while the low-level networking was handled using Steam's networking solutions. Our game contained following features:
+We developed a 2D game using the Unity engine. The multiplayer functionality was implemented with Unity's Netcode for GameObjects, while the low-level networking was handled using Steam's networking solutions. Our game containes the following features:
 
 - **Character Customization**:
 
@@ -74,7 +74,7 @@ Using a combination of raycasts, mesh generation and custom shaders we created o
 
 - **Proximity Voice Chat**:
 
-We implement our own proximity voice chat, meaning that the players only can hear voices of players who are near them. Unity's Vivox Voice chat service formed the base for that feature and we implemented our own logic to determine the volume depending on distance. 
+We implemented our own proximity voice chat, meaning that the players only can hear voices of players who are near them. Unity's Vivox Voice chat service formed the base for that feature and we implemented our own logic to determine the volume depending on distance. 
 
 - **Sound Dampening Through Walls**:
 
@@ -84,7 +84,7 @@ The player should not hear sounds through walls the same way. The motivation for
 
 - **Usable Items**:
 
-Coppers have alarm traps they can place during a match. Should a Thieve walk through such a trap, an alarm is triggered and the Copper is informed. The Thieves can place smoke bombs that block visibility and help them escape. 
+Coppers have alarm traps they can place during a match. Should a Thief walk through such a trap, an alarm is triggered and the Copper is informed. The Thieves can place smoke bombs that block visibility and help them escape. 
 
 - **Drawing On Game Map**:
 
